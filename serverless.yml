@@ -4,7 +4,7 @@ plugins:
     - serverless-offline
 
 custom:
-  recordsTable: 'records-${self:provider.stage}'
+  recordsTable: 'slackBotTest-records-${self:provider.stage}'
 
 provider:
   name: aws
