@@ -1,5 +1,8 @@
 service: slackBotTest
 
+plugins:
+    - serverless-offline
+
 provider:
   name: aws
   runtime: nodejs12.x
@@ -9,6 +12,8 @@ provider:
 functions:
    app:
     handler: index.handler
+    environment:
+        ${file(env.yml):dev}
     events:
       - http: ANY /
       - http: 'ANY {proxy+}'
