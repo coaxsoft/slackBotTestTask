@@ -16,7 +16,7 @@
  
  - run deploy `sls deploy`
 
- - copy API Gateway endpoint to Request URL: `https://<your_endpoint>/dev/slack`
+ - copy API Gateway endpoint to "Interactivity & Shortcuts" -> Request URL: `https://<your_endpoint>/dev/slack`
  
 
 ## How to setup a slack-bot?
