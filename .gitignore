@@ -1,0 +1,12 @@
+.idea/
+node_modules/
+.nyc_output/
+coverage/
+
+logs/*
+!logs/.gitkeep
+
+.env
+
+.DS_Store
+.vscode/
