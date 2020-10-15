@@ -15,8 +15,6 @@
  - set config params in `env.yml`. (Copy `env.example.yml` to `env.yml`) - you should create a Slack APP first
  
  - run deploy `sls deploy`
-
- - copy API Gateway endpoint to "Interactivity & Shortcuts" -> Request URL: `https://<your_endpoint>/dev/slack`
  
 
 ## How to setup a slack-bot?
@@ -26,6 +24,8 @@
  - set "Interactivity & Shortcuts" to "ON"
 
  - add Shortcut with callbackId = `showModal`
+
+ - copy API Gateway endpoint to "Interactivity & Shortcuts" -> Request URL: `https://<your_endpoint>/dev/slack`
 
  - install slack app to your workspace
 
